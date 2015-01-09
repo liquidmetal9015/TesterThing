@@ -49,9 +49,11 @@ public class Robot extends IterativeRobot {
     /**
      * This function is called periodically during autonomous
      */
-    //public void autonomousPeriodic() {
+    public void autonomousPeriodic() {
     	
-    //}
+    	//if(nCode.get() > 3000)
+    	//chassis1.arcadeDrive(0.5,0);
+    }
     
     /**
      * This function is called once each time the robot enters tele-operated mode
